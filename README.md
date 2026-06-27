@@ -39,12 +39,15 @@ python main.py
 2026-06-28 10:00:00 - [QUANT_BOT] - INFO - Initialized WealthGeneratorBot with $1,000,000.00
 2026-06-28 10:00:01 - [QUANT_BOT] - INFO - Fetching real-time data for NASDAQ:NVDA...
 2026-06-28 10:00:02 - [QUANT_BOT] - INFO - EXECUTED BUY: 133.45 shares @ $149.86. Capital left: $980,000.00
+
 📬 Contact & Creator
 ​Developed and maintained by @iftu8.
 ​Email: iftuuu69@gmail.com
 ​GitHub: https://github.com/iftu8
+
 ​🤝 Contributing
 ​Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-​⚠️ Disclaimer
+​
+⚠️ Disclaimer
 ​For Educational Purposes Only.
 This software is for simulation and educational purposes. It does not constitute financial advice. The creator is not responsible for any financial losses incurred if this code is connected to a live brokerage API. Always backtest strategies thoroughly before deploying real capital.
