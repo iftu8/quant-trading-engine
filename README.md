@@ -1,53 +1,45 @@
-# 📈 QuantTrade Framework
+# 📈 ApexQuant Engine
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Strategy](https://img.shields.io/badge/Strategy-MultiFactor-red?style=for-the-badge)
 
-> An institutional-grade, Python-based algorithmic trading engine designed for automated wealth generation simulation.
+> A high-performance, institutional-grade quantitative trading framework designed for multi-factor market analysis and automated risk-controlled execution.
 
 ## 🚀 Overview
-The **QuantTrade Framework** is a highly scalable, Object-Oriented trading bot built for quantitative analysis. It utilizes a **Dual Moving Average (SMA) Crossover Strategy** to identify market trends and execute simulated trades with a strict adherence to risk management protocols.
+The **ApexQuant Engine** is an advanced, Object-Oriented trading architecture built for high-alpha simulation. Unlike basic scripts, this engine integrates **Multi-Factor Quantitative Models** including **Moving Averages (SMA)**, **Relative Strength Index (RSI)**, and **MACD** to identify market momentum and execute trades with mechanical precision.
 
-Unlike basic scripts, this architecture is designed to mimic real-world hedge fund execution environments, ensuring that capital preservation is prioritized alongside alpha generation.
+## 🧠 Premium Architecture
+* **Multi-Factor Alpha Logic:** Combines Trend-Following (SMA), Momentum (MACD), and Oscillators (RSI) to minimize false signals.
+* **Institutional Risk Protocols:** Implements hard-coded **Stop-Loss (-5%)** and **Take-Profit (+15%)** mechanisms to protect principal capital regardless of market volatility.
+* **Position Sizing:** Algorithmic position sizing ensures that no single trade risks more than 2% of the total portfolio.
+* **Production-Ready Logging:** Detailed audit trails for every execution step, mimicking enterprise-level trading infrastructure.
 
-## ✨ Premium Features
-* **Advanced Risk Management:** Implements dynamic position sizing. By default, it risks a maximum of 2% of total capital per trade to prevent catastrophic drawdowns.
-* **Algorithmic Signal Generation:** Utilizes short-term and long-term Simple Moving Averages to output highly accurate `BUY`, `SELL`, or `HOLD` signals.
-* **Object-Oriented Architecture (OOP):** Modular design makes it easy to plug in new strategies, data sources, or execution APIs.
-* **Institutional Data Simulation:** Features built-in Geometric Brownian Motion mathematics to simulate realistic market price action for backtesting without needing immediate API access.
-* **Production-Ready Logging:** Replaces standard print statements with professional `logging` modules for real-time monitoring and debugging.
+## 🛠️ Technical Stack
+* **Language:** Python 3.10+
+* **Quant Libraries:** Pandas (Data Handling), NumPy (Math Simulation)
+* **Design Pattern:** Object-Oriented Programming (OOP)
 
-## 🛠️ Tech Stack
-* **Language:** Python 3
-* **Data Analysis:** Pandas, NumPy
-* **Architecture:** OOP, Type Hinting (`typing`)
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository:**
+## ⚙️ Installation
+1. **Clone the repo:**
    ```bash
    git clone [https://github.com/iftu8/quant-trading-engine.git](https://github.com/iftu8/quant-trading-engine.git)
    cd quant-trading-engine
-Install required dependencies:
-(It is recommended to use a virtual environment)
+Setup Environment:
 pip install pandas numpy
-Run the wealth generation protocol:
+Execution:
 python main.py
-💻 Usage Example
-​Upon execution, the bot initializes with a default portfolio of $1,000,000. It will fetch data, analyze the moving averages, and execute decisions autonomously:
-2026-06-28 10:00:00 - [QUANT_BOT] - INFO - Initialized WealthGeneratorBot with $1,000,000.00
-2026-06-28 10:00:01 - [QUANT_BOT] - INFO - Fetching real-time data for NASDAQ:NVDA...
-2026-06-28 10:00:02 - [QUANT_BOT] - INFO - EXECUTED BUY: 133.45 shares @ $149.86. Capital left: $980,000.00
 
-📬 Contact & Creator
-​Developed and maintained by @iftu8.
+⚖️ Legal Disclaimer & Risk Disclosure
+​IMPORTANT: PLEASE READ CAREFULLY.
+​This software, ApexQuant Engine, is provided strictly for educational and simulation purposes only.
+​Not Financial Advice: The creator of this repository is not a financial advisor. The code provided does not constitute financial, investment, or trading advice.
+​No Guaranteed Returns: Past performance (or simulated performance) is not indicative of future results. Trading financial assets involves a high degree of risk and can result in the loss of all invested capital.
+​No Liability: The user acknowledges that they are solely responsible for any decisions made based on this software. The creator assumes no liability for any financial losses, direct or indirect, resulting from the use or misuse of this code.
+​Simulation Only: This code uses synthetic data generation methods (Geometric Brownian Motion) for backtesting and is not connected to any live brokerage APIs. Do not use this framework to manage real capital without rigorous independent testing and professional consultation.
+​By using this software, you agree that you are using it at your own risk and discretion.
+
+​📬 Contact & Support
+​Developed by @iftu8.
 ​Email: iftuuu69@gmail.com
 ​GitHub: https://github.com/iftu8
-
-​🤝 Contributing
-​Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-​
-⚠️ Disclaimer
-​For Educational Purposes Only.
-This software is for simulation and educational purposes. It does not constitute financial advice. The creator is not responsible for any financial losses incurred if this code is connected to a live brokerage API. Always backtest strategies thoroughly before deploying real capital.
